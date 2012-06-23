@@ -96,6 +96,7 @@
         free(_rawBytesForImage);
         _rawBytesForImage = NULL;
     }
+	[super dealloc];
 }
 
 #pragma mark -

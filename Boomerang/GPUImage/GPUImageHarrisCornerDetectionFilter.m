@@ -190,7 +190,8 @@ NSString *const kGPUImageSimpleThresholdFragmentShaderString = SHADER_STRING
      
 - (void)dealloc;
 {
-    free(rawImagePixels);    
+    free(rawImagePixels);   
+	[super dealloc]; 
 }
 
 #pragma mark -

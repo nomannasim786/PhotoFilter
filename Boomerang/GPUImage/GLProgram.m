@@ -251,7 +251,8 @@ typedef void (*GLLogFunction) (GLuint program,
     
     if (program)
         glDeleteProgram(program);
-       
+	
+	[super dealloc];
 }
 // END:dealloc
 @end

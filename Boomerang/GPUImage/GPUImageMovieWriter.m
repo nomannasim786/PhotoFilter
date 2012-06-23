@@ -122,6 +122,7 @@ NSString *const kGPUImageColorSwizzlingFragmentShaderString = SHADER_STRING
     {
         free(frameData);
     }
+	[super dealloc];
 }
 
 #pragma mark -

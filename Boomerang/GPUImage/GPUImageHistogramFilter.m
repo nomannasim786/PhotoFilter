@@ -190,6 +190,7 @@ NSString *const kGPUImageHistogramAccumulationFragmentShaderString = SHADER_STRI
         free(vertexSamplingCoordinates);
         free(textureSamplingCoordinates);
     }
+	[super dealloc];
 }
 
 #pragma mark -

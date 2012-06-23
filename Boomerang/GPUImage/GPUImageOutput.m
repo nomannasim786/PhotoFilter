@@ -67,6 +67,7 @@ void report_memory(NSString *tag)
 {
     [self removeAllTargets];
     [self deleteOutputTexture];
+	[super dealloc];
 }
 
 #pragma mark -

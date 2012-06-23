@@ -140,6 +140,7 @@
     {
         dispatch_release(audioProcessingQueue);
     }
+	[super dealloc];
 }
 
 - (void)removeInputsAndOutputs;

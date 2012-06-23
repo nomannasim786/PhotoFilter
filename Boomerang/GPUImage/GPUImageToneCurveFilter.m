@@ -60,6 +60,7 @@ NSString *const kGPUImageToneCurveFragmentShaderString = SHADER_STRING
         toneCurveTexture = 0;
         free(toneCurveByteArray);
     }
+	[super dealloc];
 }
 
 #pragma mark -

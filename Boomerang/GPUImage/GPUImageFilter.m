@@ -123,6 +123,7 @@ void dataProviderUnlockCallback (void *info, const void *data, size_t size);
 - (void)dealloc
 {
     [self destroyFilterFBO];
+	[super dealloc];
 }
 
 #pragma mark -

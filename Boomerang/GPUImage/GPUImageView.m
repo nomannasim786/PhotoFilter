@@ -131,6 +131,7 @@
     [self removeObserver:self forKeyPath:@"frame"];
     
     [self destroyDisplayFramebuffer];
+	[super dealloc];
 }
 
 #pragma mark -

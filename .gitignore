@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.pbxuser
+project.xcworkspace
+xcuserdata
